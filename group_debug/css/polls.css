@@ -1,0 +1,15 @@
+div{
+	margin-top: 5px;
+}
+.innerpoll{
+	border: 1px solid black;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	/*display: none;*/
+}
+.poll{
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 50px;
+}

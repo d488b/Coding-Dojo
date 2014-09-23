@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta char set="UTF-8">
+	<title>My Form Page</title>
+</head>	
+<body>
+	<form action="process.php" method="post">
+		<label>Name: <input type="text" name="name"></label>
+		<label>Description: <textarea name="description"></textarea></label>
+		<p>Pick your favorite food</p>
+		<label><input type="radio" name="food" value="pizza">Pizza</label>
+		<label><input type="radio" name="food" value="Thai">Thai</label>
+		<label><input type="radio" name="food" value="Sushi">Sushi</label>	
+		<p>Select odd numbers</p>
+		<label><input type="checkbox" name="number" value="3">3</label>
+		<label><input type="checkbox" name="number" value="4">4</label>
+		<label><input type="checkbox" name="number" value="5">5</label>
+		<label><input type="checkbox" name="number" value="6">6</label>
+		<select name="city">
+			<option value="Sunnyvale">SunnyVale</option>
+			<option value="Mountain_View">Mountain View</option>
+			<option value="San Jose">San Jose</option>
+		</select>
+		<input type="submit" value="Submit!">
+	</form>
+</body>
+</html>	

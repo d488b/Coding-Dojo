@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Intermediate II Assignment</title>
+	<link rel="stylesheet" href="css/jq3.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#ninja").sortable();
+			$(".ninja1").click(function(){
+			var pic = $(this).attr("src");
+			if(pic ==="images/ninja1.png"){
+			$(this).replaceWith('<img src="images/cat1.png"/>');
+			}
+			else if (pic ==="images/ninja2.png"){
+			$(this).replaceWith('<img src="images/cat2.png"/>');
+			}
+			else if (pic ==="images/ninja3.png"){
+			$(this).replaceWith('<img src="images/cat3.png"/>');
+			}
+			else if (pic ==="images/ninja4.png"){
+			$(this).replaceWith('<img src="images/cat4.png"/>');
+			}
+			else if (pic ==="images/ninja5.png"){
+			$(this).replaceWith('<img src="images/cat5.png"/>');
+			}
+				});
+
+
+		});
+	</script>
+</head>
+<body>
+	<ul id="ninja">
+		<li><img class="ninja1" src="images/ninja1.png" alt="logo"></li>
+		<li><img class="ninja1"src="images/ninja2.png" alt="logo"></li>
+		<li><img class="ninja1" src="images/ninja3.png" alt="logo"></li>
+		<li><img class="ninja1"src="images/ninja4.png" alt="logo"></li>
+		<li><img class="ninja1"src="images/ninja5.png" alt="logo"></li>
+	</ul>
+</body>
+</html>
+	

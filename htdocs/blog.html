@@ -1,0 +1,65 @@
+ <!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Blog</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+</head>
+<body class="well">
+	<h1>My Blog</h1>
+	<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper postrta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
+	<img src="http://lorempixel.com/400/200/sports" alt="Me playing sports" height=200 width=200>
+	<a href="http://espn.com">ESPN</a>
+	<div id="About-Me">
+		<ul>
+			<li><a href="">Awesome</a></li>
+			<li><a href="">Awesome</a></li>
+			<li><a href="">Awesome</a></li>
+		</ul>
+	</div>
+	<div id="Day-o-day" class="well">
+		<h1>Day to day</h1>
+		<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. I once said <span class="important">sed augue semper porta.</span> Mauris massa. Vestibulum lacinia arcu eget nulla sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+	</div>
+	<h2>My Info</h2>
+	<table class="table table-striped">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dan B.</td>
+            <td>dbasinsk@gmail.com</td>
+            <td>847-922-5187</td>
+        </tr>
+    </tbody>
+</table>
+	<form action="process.php" method="post">
+		<label>Your Name: <input type="text" name="name"></label>
+		<label>Rate my blog: <textarea name="rate"></textarea></label>
+		<p>Rate my blog</p>
+		<label><input type="radio" name="description" value="Pwns">Pwns</label>
+		<label><input type="radio" name="description" value="Amazing">Amazing</label>
+		<label><input type="radio" name="description" value="Awesome">Awesome</label>	
+		<p>Rate my blog 1-5</p>
+		<label><input type="checkbox" name="number" value="1">1</label>
+		<label><input type="checkbox" name="number" value="2">2</label>
+		<label><input type="checkbox" name="number" value="3">3</label>
+		<label><input type="checkbox" name="number" value="4">4</label>
+		<label><input type="checkbox" name="number" value="5">5</label>
+		<select name="Rating">
+			<option value="Fun">Fun</option>
+			<option value="Boring">Boring</option>
+			<option value="Original">Original</option>
+		</select>
+		<input type="submit" value="Submit!">
+	</form>
+
+</body>

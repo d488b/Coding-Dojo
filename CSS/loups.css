@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	width: 940px;
+	border: 1px;
+	margin: 0px auto;
+	border: solid black;
+	height: 660px;
+}
+.gray{
+	background-color: lightgray;
+}
+.clear{
+	clear: both;
+}
+header{
+	height: 75px;
+	width: 900px;
+	margin: 5px 15px 10px 5px;
+	font-size: 17px;
+	border-radius: 20px;
+}
+h1{
+	padding: 20px;
+}
+#left-box{
+	height: 350px;
+	width: 240px;
+	margin: 10px 10px 10px 5px;
+	border-radius: 25px;
+}
+#left-box ul li a{
+	text-decoration: none;
+	font-size: 14px;
+}
+#left-box p{
+	margin: 20px 100px 3px 10px;
+}
+#left-box ul{
+	margin-left: 30px;
+}
+.no-marker {
+	list-style-type: none;
+
+}
+#right-box{
+	height: 400px;
+	width: 610px;
+	border: 1px gray;
+	background-color: gray;
+	float: right;
+	margin: 5px 30px 5px 5px;
+	padding: 15px;
+	border-radius: 30px;
+}
+#right-box li{
+	margin-left: 20px;
+	font-size: 16px;	
+	margin-top: 10px;
+	margin-right: 10px;
+}
+footer{
+	height: 55px;
+	width: 900px;
+	margin: 30px 15px 10px 5px;
+	bottom: 5px;
+	border-radius: 30px;
+	padding-top:25px;
+	padding-left: 15px;
+}
+#left-box, #right-box{
+	display: inline-block;
+}
+.bold{
+	font-weight: bold;
+	font-size: 22px;
+}
+#right-box ul li a{
+	font-size: 11px;
+}
+footer .text{
+	font-size: 13px; 
+
+}

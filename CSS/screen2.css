@@ -1,0 +1,105 @@
+#container{
+	width: 1000px;
+	border: 1px;
+	margin: 0px auto;
+	border: solid black;
+	height: 800px;
+}
+#top-buttons{
+	width: 1000px;
+	border: 1px;
+	background-color: lightgrey;
+	border: solid grey;
+	height: 30px;
+
+}
+.red{
+	background-color: maroon;
+}
+.red-text{
+	color: maroon;
+}
+header{
+	background-color: maroon;
+	overflow: hidden;
+	height: 66px;
+}
+header h1{
+	float: left;
+	color: white;
+	font-size: 18px;
+	font-family: fantasy;
+	margin-left: 350px;
+}
+header img{
+	float:left;
+}
+#search-form{
+	float: right;
+}
+#search-form ul{
+	display: inline;
+	list-style-type: none;
+}
+#search-form ul li{
+	display: inline;
+}
+#side-bar{
+	height: 300px;
+	width: 200px;
+	margin: 25px 10px 10px 5px;
+	background-color: lightgrey;
+	border-color: gray;
+	border-style: solid;
+	border-width: thin;
+	float:left;
+}
+#side-bar ul li{
+	margin: 5px;
+	list-style-type: none;
+}
+#side-bar ul li:before {
+	content:"\00BB \0020";
+	color: maroon;
+	font-size: 10px;
+	margin-left: 5px;
+}
+#body{
+	margin-left: 250px;
+	font-size: 13px;
+}
+.bold{
+	font-weight: bold;
+}
+#top-buttons ul{
+	margin: 10px;
+	padding: 0px;
+	display: inline;
+}
+#top-buttons li:before{
+	content: " | ";
+}
+#top-buttons li:first-child:before {
+	content: none;
+}
+a{
+	color:maroon;
+}
+#top-buttons ul li{
+	display: inline-block;
+	margin-left: 30px;
+	color: gray;
+}
+#search-form ul li a{
+	color: yellow;
+}
+#search-form ul li{
+	border-right: 1px solid gray;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#search-form ul{
+	padding-left: 5px;
+}
+form{
+	margin-left: 114px;

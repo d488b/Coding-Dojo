@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Screen Shot 4 Remake</title>
+		<link rel="stylesheet" type="text/css" href="css/screen4.1.css" />
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		 <script>
+		 	$(document).ready(function(){
+		 		$("#dropdown").hover(
+		 			function(){
+		 				$("#dropmenu").stop().fadeIn();
+		 			},
+		 			function(){
+						$("#dropmenu").fadeOut();
+		 			}
+		 		);
+		 		$("#main_image").click(function(){
+		 			var main_image = $("#main_image");
+		 			if(main_image.attr('alt') == "main")
+		 			{
+		 				main_image.attr('src', 'images/main2.jpg');
+		 				main_image.attr('alt', 'notmain');
+		 			}
+		 			else
+		 			{
+		 				main_image.attr('src', 'images/main.jpg');
+		 				main_image.attr('alt', 'main');
+		 			}
+		 		});
+		 		$(".bottom_sizing button").click(function(){
+		 			$(".bottom_sizing").hide();
+		 			$("#more h2").text($(this).attr('id'));
+		 			$("#more").show();
+		 		});
+		 		$("#back").click(function(){
+		 			$("#more").hide();
+		 			$(".bottom_sizing").show();
+
+		 		});
+		 	});
+		 </script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="header">
+				<img id="logo" src="images/logo.png" alt="logo" />
+				<p class="right" id="call_number">CALL TOLL FREE 1-800-772-5823</p>
+			</div>
+			<div id="banner">
+				<ul>
+					<li id="dropdown"><a href="#">HOME</a>
+						<div id="dropmenu">
+							<ul>
+								<li>Item 1</li>
+								<li>Item 2</li>
+								<li>Item 3</li>
+								<li>Item 4</li>
+								<li>Item 5</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">MARKET SEGMENTS</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">PRODUCTS</a></li>
+					<li><a href="#">PROMOTIONS</a></li>
+					<li><a href="#">MARKET AREA</a></li>
+					<li><a href="#">MARKET INFORMATION</a></li>
+				</ul>
+			</div>
+			<div id="body">
+				<img id="main_image" src="images/main.jpg" alt="main" />
+				<div id="body_right">
+					<h4>ABOUT PPC LUBRICANTS</h4>
+					<h5>A Heritage of Specializing in Lubricants</h5>
+					<p>For over 40 years, <span class="bold">PPC Lubricants</span> has earned a solid reputation for offering high quality products and services that improve your business. How? By providing customer retention programs/products for Installers and products and services that increase equipment life and enhance the efficiency of all equipment whether it be <span class="bold">Automotive, Heavy Duty Commercial, or Industrial</span> in its application.</p>
+					<p>At <span class="bold">PPC Lubricants</span>, we take tremendous pride in providing the highest level of Service. When you call our toll free numbers you will be greeted by a staff that is knowledgeable and experienced in the various lubricants that we carry. Each customer service representative receives industry specific training on the latest advancements in <span class="bold">lubrication technology</span> including changing equipment and OEM requirements.</p>
+				</div>
+			</div>
+			<div id="mid_text">
+				<button type="submit"><img src="images/logo.png" alt="logo"></button>
+				<p> PPC now has Bulk Delivery/Squirt Fill capabilties for DEF</p>
+			</div>
+
+			<div id="footer">
+				<div class="bottom_sizing">
+					<h4>AUTOMOTIVE</h4>
+					<img src="images/automotive.jpg" alt="automotive" />
+					<p>The Automotive Market requires a different set of tools in order to succeed. PPC Lubricants offers various programs that are customized to each customer in...</p>
+					<button type="submit" id="Automotive">READ MORE...</button>
+				</div>
+				<div class="bottom_sizing">
+					<h4>COMMERCIAL</h4>
+					<img src="images/commercial.jpg" alt="commercial" />
+					<p>PPC Lubricants has been in business of supporting the Commercial market for over 40 years! The most important thing that we have learned is that...</p>
+					<button type="submit" id="Commercial">READ MORE...</button>
+				</div>
+				<div class="bottom_sizing">
+					<h4>INDUSTRIAL</h4>
+					<img src="images/industrial.jpg" alt="industrial" />
+					<p>Regardless of the industrial market segment that you operate in: Metal, Forestry, Gas or Power Production, Foods, Plastics or almost any other field, your lubricant...</p>
+					<button type="submit" id="Industrial">READ MORE...</button>
+				</div>
+				<div class="bottom_sizing">
+					<h4>DIESEL EXHAUST FLUID</h4>
+					<img src="images/diesel.jpg" alt="diesel" />
+					<p>As governmental regulations on emissions from diesel engines become more severe, it has forced vehicle manufacturers to evaluate and adopt new technologies in order to...</p>
+					<button type="submit" id="Diesel">READ MORE...</button>
+				</div>
+				<div id="more">
+					<h2></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, omnis quas eius ut adipisci! Molestiae, eius, molestias saepe iusto atque magnam ipsa quas quis dolorum recusandae error architecto totam modi nostrum laudantium unde animi. Accusantium, inventore, repudiandae, quibusdam, earum molestias iusto dolor porro vel laborum animi iste ratione eos est sunt non illum dignissimos corporis libero ipsum quasi amet rem quod perspiciatis eius ex doloribus eveniet ea asperiores impedit quas! Nihil, dicta ipsa aspernatur error similique esse doloremque minus voluptatibus ut delectus earum ipsam provident placeat nulla in at hic molestiae quos.</p>
+					<button id="back">Back</button>
+				</div>
+			</div>
+		</div><!--End wrapper-->
+	</body>
+</html>

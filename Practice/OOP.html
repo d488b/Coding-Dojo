@@ -1,0 +1,35 @@
+<?php
+  class Dojo {
+    //attributes unique to each dojo
+    var $health;
+    var $x;
+    var $y;
+    var $name;
+
+    //specifying what each dojo can do
+    function create_ninjas(){
+      echo "<br />creating ninjas"; 
+    }
+
+    function create_dragons(){
+      echo "<br />creating dragons"; 
+    }
+}
+
+$dojo1 = new Dojo();  //creating my first instance/object of the Dojo class
+$dojo2 = new Dojo();  //creating another instance/object of the Dojo class
+$dojo3 = new Dojo();  //creating another instance/object of the Dojo class<br>
+
+$dojo1->name = "CodingDojo"; //setting the name attribute of the instance
+$dojo2->name = "HackerDojo";
+$dojo3->name = "MojoDojo";
+
+echo $dojo1->name; //prints the name of $dojo1 instance
+
+$dojo1->create_ninjas(); //accesses or calls the create_ninjas method
+
+var_dump($dojo1);  //dumping information about $dojo1 instance/object
+var_dump($dojo2);  //dumping information about $dojo2 instance/object
+var_dump($dojo3);  //dumping information about $dojo3 instance/object
+
+?>

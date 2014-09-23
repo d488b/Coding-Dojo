@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Intermediate Assignment Part.2</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("form").click(function(){
+				$("form").after("");
+			});
+  			$(".datepicker").datepicker();
+  			$("form").click(function(){
+  				var to= $("#to").val();	
+  				var from= $("#from").val();
+  				$("p").append("To: " + to + " and From: " + from);
+  				return false;
+			});
+		});
+
+
+
+
+	</script>
+</head>
+<body>
+	<h2>jQuery - assignment 2</h2>
+	<p></p>
+<label for="from">From</label>
+<input type="text" id="from" name="from" class="datepicker" />
+<label for="to">to</label>
+<input type="text" id="to" name="to" class="datepicker"/>
+<form>
+	<input id="button" type="submit" value="Submit" />
+</form>
+
+</body>
+</html>

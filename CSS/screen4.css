@@ -1,0 +1,150 @@
+#container {
+	border: solid black;
+	height: 750px;
+	width: 1100px;
+}
+header {
+	border-bottom: solid grey 1px;
+}
+header img {
+	display: inline-block;
+}
+header h1 {
+	display: inline-block;
+	margin-left: 330px;
+	margin-top: 27px;
+	font-size: 22px;
+	vertical-align: top;
+}
+#nav-bar {
+	border-bottom: solid grey 1px;
+	background-color: lightblue;
+	display: inline-block;
+}
+	#nav-bar ul li {
+		display: inline-block;
+		padding-right: 10px;
+		padding-left: 15px;
+		font-size: 15px;
+		border-left: 1px solid grey;
+		height: 30px;
+		padding-top: 10px;
+
+	}
+		#nav-bar ul {
+			padding-right: 55px;
+			padding-left: 100px;
+			margin-right: 25px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+#body {
+	height: 638px;
+	background-image: -webkit-radial-gradient(center, circle closest-corner, #787878 0%, #000000 100%);
+}
+#drop-down {
+	border: 1px solid white;
+	height: 110px;
+	width: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 124px;
+	left: 110px;
+}
+	#drop-down ul {
+		padding-left: 0px;
+	}
+	#drop-down ul li {
+		border-bottom: solid 1px white;
+		list-style-type: none;
+		padding-top: 0px;
+		padding-left: 30px;
+	}
+#top-left {
+	padding-left: 37px;
+	padding-top: 15px;
+	display: inline-block;
+
+}
+#top-left img {
+	display: inline-block;
+	border: 3px solid white;
+}
+#left-text p{
+	display: inline-block;
+	color: gold;
+	font-size: 12px;
+}
+	#left-text img {
+		margin-left: 55px;
+		display: inline-block;
+}
+#top-right {
+	border: solid grey 1px;
+	height: 258px;
+	width: 540px;
+	background: transparent;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	opacity: 0.7;
+}
+.box {
+	height: 254px;
+	width: 220px;
+	display: inline-block;
+	border: solid darkgray 2px;
+	margin-left: 40px;
+	vertical-align: top;
+	background-color: white;
+}
+	.box h5 {
+		background-color: yellow;
+		padding-left: 35px;
+		padding-top: 10px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-bottom: 5px;
+		font-size: 12px;
+}
+		.box p {
+			font-size: 11px;
+			padding: 0px 9px ;
+		}
+.button {
+	border-radius: 5px;
+	margin-left: 110px;
+	border: solid black 2px;
+	background-color: yellow;
+}
+#top-right h5 {
+	background-color: yellow;
+	padding-left: 15px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	opacity: .9
+}
+#top-right p {
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-left: 25px;
+	padding-right: 20px;
+}
+.bold {
+	font-weight: bold;
+}
+#info {
+	height: 150px;
+	width: 850px;
+	border: solid black 2px;
+	position: relative;
+	bottom: 200px;
+	left: 100px;
+	background-color: white;
+}
+#info p {
+	margin-left: 100px;
+	margin-top: 50px;
+}

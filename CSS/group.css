@@ -1,0 +1,236 @@
+#left-container {
+  width: 200px;
+  display: inline-block;
+}
+
+#right-container {
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+#banner {
+  background-color: #e0f4e2;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+#banner p {
+  text-align: center;
+  margin: 0.3em;
+}
+
+#newsletter {
+
+}
+
+#newsletter p {
+  margin: 0;
+}
+
+#search-box {
+
+}
+
+#search-box form {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#search-box form input {
+  height: 28px;
+  width: 165px;
+  font-size: 0.4em
+}
+
+.green {
+  color: #4ca657;
+}
+
+.grey {
+  color: #939696;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.orange-btn {
+  color: #fff;
+  background-color: #ff4921;
+  display: block;
+  padding: 0.8em 2em;
+  border-radius: .4em;
+  border: none;
+  font-size: .4em;
+}
+
+.grey-btn {
+  color: #fff;
+  background-color: #939696;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.2em .5em;
+  border-radius: .4em;
+  border: none;
+  font-size: .4em;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/*liam's styles*/
+#logo{
+color:blue;
+font-size: 30px;
+height:100px; width: 100px;
+display: inline-block;
+width: 80px;
+}
+
+#logo span{
+  margin-left: 10px;
+}
+
+#logo span:nth-child(1){
+  display: block;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#logo span:nth-child(2){
+  display:block;
+  background-color:green;
+  color:white;
+  margin-top: 0px;
+ text-align: center;
+}
+
+#menu{
+  border-top:2px solid #CFCFCF;
+  border-bottom:2px solid #CFCFCF;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  width: 650px;
+  padding: 10px;
+}
+
+#menu span{
+  margin-left: 100px;
+  color:#7A7A7A;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#menu ul{
+  display: inline-block;
+  margin: 0;
+
+}
+
+#menu ul li{
+  display: inline-block;
+  color:blue;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+#menu ul li:after {
+  content:'|';
+  padding-right:10px; padding-left: 10px;
+}
+
+#menu ul li:last-child:after {
+  content:none;
+  padding-right:10px; padding-left: 10px;
+}
+/*liam's styles*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both; 
+} 
+
+a {
+    text-decoration: none;
+}
+/*Dan's css*/
+#tags{
+    font-style: italic;
+  font-size: 12px; 
+  display: inline-block;
+}
+#tags ul li{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+}
+#tags ul li a{
+  text-decoration: none;
+  font-size: 15px;
+}
+#tags ul{
+  margin: 1px;
+  display: inline-block;
+  padding: 0px;
+}
+.clear{
+  clear: both;
+}
+.bottum-tags{
+  font-weight: bold;
+}
+/* Dan's CSS */
+/* David's Styles*/
+#h2-type {
+    font-family: serif;
+  font-weight: normal;
+
+}
+
+.heightzero {
+  line-height: 0px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.clear {
+    clear: both; 
+} 
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+/* David's Styles */

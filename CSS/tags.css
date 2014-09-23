@@ -1,0 +1,25 @@
+#tags{
+	font-style: italic;
+	font-size: 12px; 
+	display: inline-block;
+}
+#tags ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+}
+#tags ul li a{
+	text-decoration: none;
+	font-size: 15px;
+}
+#tags ul{
+	margin: 1px;
+	display: inline-block;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+.bottum-tags{
+	font-weight: bold;
+}

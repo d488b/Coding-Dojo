@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Screen 4</title>
+	<link rel="stylesheet" href="css/screen4.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#drop-down").hide();
+			$(".home").mouseover(function(){
+				$("#drop-down").show();
+			});
+			$("#drop-down").mouseover(function(){
+				$(this).show();	
+			});
+			$(".home").mouseout(function(){
+				$("#drop-down").hide();
+			});
+			$("#drop-down").mouseout(function(){
+				$(this).hide();
+			});
+			$(".building").click(function(){
+				if($(this).attr('class') == 'building')
+				{
+					$(this).attr("src", "images/screen2.png");
+					$(this).attr( "class", "none");
+				}
+				else{
+					$(this).attr("src", "images/s4main.png");
+					$(this).attr("class", "building");
+				}
+			});
+			$(".building").css({"height": "260px", "width": "500px"});
+			$("button").click(function(){
+				$(this).show(".info")
+			});
+
+
+
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<img src="images/s4logo.png" alt="logo">
+			<h1>CALL TOLL FREE 1-800-772-5823</h1>
+		</header>
+		<div id="nav-bar">
+			<ul>
+				<li class="home">HOME</li>
+				<li>MARKET SEGMENTS</li>
+				<li>SERVICES</li>
+				<li>PRODUCTS</li>
+				<li>PROMOTIONS</li>
+				<li>MARKET AREA</li>
+				<li>MARKET INFORMATION</li>
+			</ul>
+
+		</div>
+		<div id="body">
+			<div id="top-left">
+				<img src="images/s4main.png" alt="building" class="building">
+			</div>
+			<div id="drop-down">
+				<ul>
+					<li>One</li>
+					<li>Two</li>
+					<li>Three</li>
+					<li>Four</li>
+					<li>Five</li>
+				</ul>
+			</div>
+			<div id="top-right">
+				<h5>ABOUT PPC LUBRICANTS</h5>
+					<p class="bold">A Heritage of Specializing in Lubricants</p>
+					<p>For over 40 years, <span class="bold">PPC Lubricants</span> has earned a solid reputation for offering high quality products and services that improve your business. How? By providing customer retention programs/products for installers and products and services that increase equipment life and enhance the efficiency of all equipment whether it be <span class="bold">Automotive, Heavy Duty Commercial, or industrial</span> in its application.</p>
+					<p>At <span class="bold">PPC Lubricants</span>, we take tremendous pride in providing the highest level of Service. When you call our toll free numbers you will be greeted by a staff that is knowledgeable and experienced in the various lubricants that we carry. Each customer service representative receives industry specific training on the latest advancements in <span class="bold">lubrication technology</span> including changing equipment and OEM requirements.</p>
+			</div>
+			<div id="left-text">
+				<img src="images/s4mini.png" alt="mini-logo">
+				<p class="one">PPC now has Bulk Delivery/Squirt Fill capabilities for DEF</p>
+			</div>
+
+			<div class="box">
+				<h5>AUTOMOTIVE</h5>
+				<img src="images/s3mechanic.png" alt="mechanics">
+				<p>The Automotive Market requires a different set of tools in order to succeed. PPC Lubricants offers various programs that are customized to each customer in...<p>
+				<button class="button" type="button">READ MORE...</button>
+			</div>
+			<div class="box">
+				<h5>COMMERCIAL</h5>
+				<img src="images/s3truck.png" alt="truck">
+				<p>PPC Lubricants has been in business of supporting the Commercial market for over 40 years! The most important thing that we have learned is that...</p>	
+				<button class="button" type="button">READ MORE...</button>			
+			</div>
+			<div class="box">
+				<h5>INDUSTRIAL</h5>
+				<img src="images/s3fire.png" alt="fire">
+				<p>Regardless of the industrial market segment that you operate in: Metal, Forestry, Gas or Power Production, Foods, Plastics or almost any other field, your lubricant...</p>
+				<button class="button" type="button">READ MORE...</button>		
+			</div>
+			<div class="box">
+				<h5>DIESEL EXHAUST FLUID</h5>
+				<img src="images/s3box.png" alt="box">
+				<p>As governmental regulations on emissions from diesel engines become more severe, it has forced vehicle manufacturers to evaluate and adopt new technologies in order to...</p>
+				<button class="button" type="button">READ MORE...</button>
+			</div>
+		<div id="info">
+			<p>Information!</p>
+
+		</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
+
+
